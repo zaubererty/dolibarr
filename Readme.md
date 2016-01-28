@@ -1,4 +1,4 @@
-# DOLIBARR ERP & CR
+# DOLIBARR ERP & CRM
 
 Container with installed Dolibarr and all needed tools.
 Database is not included, run a mysql and create a database.

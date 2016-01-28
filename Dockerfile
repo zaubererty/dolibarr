@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev \
 
 RUN docker-php-ext-install mysqli
 
-COPY php.ini /usr/local/etc/php
+COPY php.ini /usr/local/etc/php/
 
 RUN cd /tmp \
 		&& curl "https://codeload.github.com/Dolibarr/dolibarr/tar.gz/${VERSION}" -o dolibarr.tar.gz \
